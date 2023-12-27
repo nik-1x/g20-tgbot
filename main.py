@@ -220,7 +220,7 @@ async def pair_selected(data: types.CallbackQuery):
         reply_markup=types.InlineKeyboardMarkup().add(
             types.InlineKeyboardButton(
                 text="💸 Transfer GRAM",
-                url="https://t.me/gram20stagingbot/app?startapp="
+                url="https://t.me/gram20bot/app?startapp="
                 + quote(
                     json.dumps(
                         {
